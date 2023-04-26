@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 
 /*--------------------------------Colors-----*/
 
@@ -23,6 +24,29 @@
     background-color: #525252;
 }
 
+/*---------Special paddings/margins/text-----*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*-------------------------------Heading-----*/
 
 header {
@@ -42,6 +66,7 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -67,6 +92,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -103,4 +132,63 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*-----------------------------Hover.css-----*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, .2);
+    height: 120px;
+}
+
+/*--------------------------------Footer-----*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
