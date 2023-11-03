@@ -379,11 +379,22 @@ footer .cv-pdf i:hover {
     max-width: 70%;
 }
 
+input {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #525252;
+    box-shadow: 0 0 5px #8f8f8f;
+}
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+    border: 1px solid #525252;
+    box-shadow: 0 0 5px #8f8f8f;
 }
 
 /*--------------------------------------------Map*/
