@@ -166,7 +166,12 @@ img {
   font-size: 1.4em;
   color: #666;
   max-width: 550px;
-  margin-bottom: 15px;
+  margin: auto;
+}
+
+#gh-user-data h2 {
+  text-align: center;
+  margin-top: 15px;
 }
 
 #gh-submit {
