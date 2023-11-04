@@ -108,7 +108,7 @@ img {
 }
 
 .repo-list ul {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .repo-list ul li {
@@ -163,7 +163,7 @@ img {
 #gh-username {
   display: block;
   padding: 5px 8px;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #666;
   max-width: 550px;
   margin: auto;
@@ -171,7 +171,8 @@ img {
 
 #gh-user-data h2 {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 30px;
+  font-size: 1.8em;
 }
 
 #gh-submit {
