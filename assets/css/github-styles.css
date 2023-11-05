@@ -167,6 +167,9 @@ img {
   color: #666;
   max-width: 550px;
   margin: auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px #555555;
 }
 
 #gh-user-data h2 {
