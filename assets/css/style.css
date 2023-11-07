@@ -397,12 +397,11 @@ input {
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
     border: 1px solid #525252;
     box-shadow: 0 0 10px #555555;
+    margin: 20px auto;
 }
 
 /*--------------------------------------------Map*/
